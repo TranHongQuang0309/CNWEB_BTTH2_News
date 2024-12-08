@@ -160,12 +160,14 @@ try {
             <li><a href="#">Quản lý người dùng</a></li>
             <li><a href="#">Quản lý danh mục</a></li>
             <li><a href="#">Quản lý tin tức</a></li>
-            <li><a href="#">Cài đặt</a></li>
             <li><a href="logout.php">Đăng xuất</a></li>
         </ul>
     </div>
     <div class="main-content">
         <h1>Chào mừng đến với ADMIN!</h1>
+        <div class="d-flex justify-content-between mb-3">
+            <a href="add_news.php" class="btn btn-success">Thêm bài viết mới</a>
+        </div>
         <div class="cards">
             <?php if (empty($news)): ?>
                 <p>Không có tin tức nào được tìm thấy.</p>
