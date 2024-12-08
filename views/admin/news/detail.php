@@ -57,7 +57,8 @@ try {
         </div>
 
         <a href="dashboard.php" class="btn btn-secondary mt-3">Trở lại danh sách bài viết</a>
-        <a href=# class="btn btn-secondary mt-3">Sửa bài viết</a>
+        <a href="edit_news.php?id=<?php echo $new['id']; ?>" class="btn btn-secondary mt-3">Sửa bài viết</a>
+        <a href="delete_news.php?id=<?php echo $new['id']; ?>" class="btn btn-secondary mt-3">Xóa bài viết</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
